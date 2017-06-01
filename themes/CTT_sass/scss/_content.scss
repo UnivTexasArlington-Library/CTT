@@ -1,0 +1,586 @@
+//Custom
+.container-fluid {
+  max-width: 1980px;
+  padding:0 2em;
+}
+.region-uta-logo {
+  margin-bottom:2em;
+  margin-left:0.5em;
+  p {
+    margin:0;
+    font-size: 14px;
+  }
+  a {
+    color:$text-color;
+  }
+}
+#block-superfish-1 {
+  marign-right:-0.5em;
+}
+#logo {
+  /*float: right;*/
+  /*padding-left:0.5em;*/
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.logo img {
+  height: 2em;
+  width: auto;
+  clear:both;
+}
+.navbar.container-fluid {
+  margin-bottom: 0;
+}
+.pane-page-site-name {
+  font-size: 1.5625em;
+  padding-left: 1em;
+  line-height: 1em;
+  padding-top: 0.5em;
+  small {
+    font-size: 75%
+  }
+}
+.pane-views-exp-search-page-1 {
+  padding-left:1.5em;
+  padding-top:0.5em;
+}
+.main-container {
+  background-color: $brand-bkgd;
+  min-height: 42em;
+  margin-top: -2.5em;
+  padding:2em 0;
+}
+.front .main-container {
+  background-color: $brand-primary;
+  padding:2em;
+}
+
+#mini-panel-front_page_title {
+  margin-top:10.75em;
+  margin-left:0.5em;
+}
+#collection,
+#viewed,
+#featured {
+  margin-top:3em;
+  padding-top:3em;
+  padding-bottom:11em;
+  margin-right:1em;
+  margin-left:1em;
+  h4 {
+    float:right;
+    /*padding-right:1em;*/
+    a {
+      color: $text-color;
+      padding:0.25em 0.5em;
+      border:1px solid transparent;
+      &:after {
+        content: url("../images/Down-arrow-blue_sm.png");
+        padding-left: 0.5em;
+      }
+      &:hover, &:focus {
+        color:$link-color;
+        text-decoration: none;
+        padding:0.25em 0.5em;
+        border-color: $brand-menu;
+        &:after {
+          content: url("../images/Down-arrow-red_sm.png");
+          padding-left: 0.5em;
+        }
+      }
+    }
+  }
+  img.img-responsive {
+    width:100%;
+  }
+}
+#collection {
+  background-color: $brand-collection;
+}
+#viewed {
+  background-color: $brand-viewed;
+}
+#featured {
+  background-color: $brand-featured;
+}
+#collapseCollection,
+#collapseViewed,
+#collapseFeatured,
+#collapseCollection2,
+#collapseViewed2,
+#collapseFeatured2 {
+  margin-right:1em;
+  margin-left:1em;
+  margin-top:-8em;
+  background-color: $brand-menu;
+  padding:1em 1.25em;
+}
+#collapseCollection,
+#collapseCollection2 {
+  .nav > li > a {
+    padding:0.25em 0;
+    font-size: $font-size-small;
+    color:$text-color;
+    &:hover, &:focus {
+      color:$link-color;
+      text-decoration: underline;
+      background-color: transparent;
+    }
+  }
+}
+.view-recently-added,
+.view-featured-items {
+  .views-row {
+    padding: 0.25em 0;
+    color:$text-color;
+    font-size: $font-size-small;
+    a {
+      color:$text-color;
+      &:hover, &:focus {
+        color:$link-color;
+      }
+    }
+  }
+}
+.page-header {
+  border:none;
+  text-transform: uppercase;
+}
+.view-pages-related-to-page {
+  margin-top: 1em;
+  /*ul.pagination {
+    float:left;
+  }*/
+  .views-field-body {
+    padding:0.625em;
+    p {
+      font-size: $font-size-small;
+      margin-bottom: 0.1875em;
+    }
+  }
+  .img-thumbnail {
+    background-color: $brand-purple;
+    padding:0.625em;
+  }
+}
+// Search 
+
+.region-sidebar-first {
+  padding: 0 1em;
+}
+#block-views-exp-search-page-1 {
+  width:100%;
+}
+
+#edit-search-api-views-fulltext-wrapper {
+  width:85%;
+  max-width: 278px;
+}
+.views-exposed-form .views-exposed-widget {
+  padding:0;
+}
+#facetapi-facet-search-apibook-page-block-field-book-author,
+#facetapi-facet-search-apibook-page-block-field-book-style {
+  padding-left:0.5em;
+}
+.facetapi-checkbox {
+  margin-left:0.5em;
+  text-transform: capitalize;
+}
+.form-control {
+  background-color: $brand-menu;
+  color:$text-color;
+  &:focus {
+    border-color:$brand-purple;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(123, 111, 125, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(123, 111, 125, 0.6);
+  }
+}
+
+#edit-search-api-views-fulltext {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#edit-submit-search {
+  margin-top:0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color:$link-color;
+  border-width:0;
+}
+.panel-search {
+  padding:1em;
+  margin: 2em 2em 0 0; 
+  border:none;
+  @media (max-width: $screen-xs-max) { 
+    margin-left:2em;
+  }
+}
+.panel-search-inside {
+  border:none;
+}
+.search-result-right {
+  padding-left:1em;
+}
+.pagination {
+  margin:1em 0;
+}
+.pagination > li > a,
+.pagination > li > span {
+  margin-right: 0.25em;
+  margin-bottom:0.25em;
+}
+/*.field-name-field-book-style {
+  border-bottom: thick dotted @brand-primary;
+  padding-bottom: 1em;
+  width:330px;
+}*/
+#backtotop{
+  background:transparent url("/ctt2/sites/default/files/CTT-up-arrow.png") no-repeat scroll center center;
+  height: 2em;
+  width:2em;
+  opacity: 1;
+  &:hover, &:focus {
+    opacity:0.8;
+  }
+}
+.footer {
+  background-color: $brand-primary;
+  padding-right:3.5em;
+  padding-left:15px;
+  padding-bottom:15px;
+  border-top: none;
+  font-size: $font-size-small;
+  /*position:absolute;
+  right:0;
+  bottom:-20em;*/
+
+}
+// INTERNAL PAGES 
+.not-front {
+  header {
+    z-index: 0;
+    background: transparent;
+    border-width: 0;
+    margin-bottom:0;
+    /*display: inline-block;*/
+  }
+  #block-superfish-1 {
+    top:-3.5em;
+    position: relative;
+  }
+  .navbar .logo {
+    padding-left: 0.5em;
+  }
+  .logo img {
+    height: 3em;
+  }
+  .navbar-brand {
+    padding:5px 0;
+    line-height: 1em;
+    font-size: 1.5625em;
+    small {
+      font-size: 75%;
+    }
+  }
+  h3.field-content {
+    margin-top:0;
+  }
+}
+.pane-menu-menu-about {
+  .nav > li > a {
+    display:inline-block;
+  }
+  .nav > li > a.active {
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1980px) {
+  #logo {
+    float:right;
+  }
+  .not-front .navbar .logo {
+    padding-left: 0;
+  }
+  .region-uta-logo {
+    margin-left:0;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .front {
+    .navbar-header .logo,
+    .navbar-header .name {
+      display:none;
+    }
+  }
+  /*.not-front {
+    #edit-search-api-views-fulltext-wrapper {
+      width:12em;
+    }
+  }*/
+}
+
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .not-front {
+    /*#edit-search-api-views-fulltext-wrapper {
+      width:10em;
+    }*/
+    .region-sidebar-first {
+      padding: 0 0.5em;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+  .navbar-header {
+    width:100%;
+    margin-bottom:1em;
+  }
+  /*.name {
+    padding-left:0.5em;
+  }*/
+  .region-uta-logo {
+    margin-top:1em;
+    margin-right:1.25em; 
+    margin-bottom:0.5em;
+    img {
+      height: auto;
+    }
+  }
+  .navbar .logo {
+    margin-left:0.5em;
+    img {
+      height: 2.5em;
+    }
+  }
+  .navbar .name {
+    padding:0;
+    margin-top: 4px;
+  }
+  #collection,
+  #viewed, 
+  #featured {
+    margin-top:1.5em;
+  }
+  #collection,
+  #collapseCollection2 {
+    margin-left:1em;
+    margin-right:0;
+  }
+  #viewed,
+  #collapseViewed2 {
+    margin-right:0.5em;
+    margin-left:0.5em;
+  }
+  #featured,
+  #collapseFeatured2 {
+    margin-right:1em;
+    margin-left:0;
+  }
+  .front {
+    #views-exposed-form-search-page-1 {
+      margin-left:1em;
+    }
+    .pane-views-exp-search-page-1 {
+      padding-left:0;
+    }
+    /*#edit-search-api-views-fulltext-wrapper {
+      width:248px;
+    }*/
+  }
+  .not-front {
+    header {
+      display:block;
+    }
+    #block-superfish-1 {
+      top:0;
+    }
+    .region-sidebar-first {
+      padding: 0;
+    }
+    .main-container {
+      margin-top:1.5em;
+    }
+    #views-exposed-form-search-page-1 {
+      margin-left:0em;
+    }
+    /*#edit-search-api-views-fulltext-wrapper {
+      width:8em;
+    }*/
+    h1 {
+      font-size: 1.25em;
+      margin-top:1.25em;
+    }
+    h2 {
+      font-size: 1.125em;
+    }
+    h3 {
+      font-size: 0.875em;
+      fontt-weight:bold;
+    }
+    h4.pane-title {
+      font-size: 1em;
+    }
+    .pane-menu-menu-about {
+      .nav > li > a {
+        font-size: 0.875em;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+  .front .region-content {
+    margin-top:1em;
+  }
+}
+@media (max-width: $screen-xs-max) {
+  #navbar {
+    margin:1em 0.75em;
+    padding-left:0;
+    padding-right:2.5em;
+  }
+  .region-uta-logo {
+    margin-bottom:1em;
+    img {
+      width: 200px;
+      height: auto;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+  .navbar .logo {
+    margin-right:0;
+    padding:0;
+  }
+  .logo img {
+    /*height:2.0em;*/
+    display: none;
+  }
+  .navbar-brand {
+    padding-top:5px;
+    padding-left:0.25em;
+    font-size: 1em;
+    line-height: 1em;
+    small {
+      font-size: 75%;
+    }
+  }
+  .front .main-container {
+    padding:0 0 2em 0;
+  }
+  /*.region-sidebar-first {
+    display: none;
+  }*/
+  /*.main-container {
+    margin-top:0;
+  } 
+  .front #edit-search-api-views-fulltext-wrapper {
+    width:40%;
+  }
+  #views-exposed-form-search-page-1 {
+    margin-left:1.5em;
+  }*/
+  .front .pane-views-exp-search-page-1 {
+    padding:0 1em;
+  }
+  /*#edit-search-api-views-fulltext-wrapper {
+      width:248px;
+  }*/
+  #collection,
+  #viewed, 
+  #featured {
+    padding-bottom:3em;
+    margin-right:1em;
+    margin-left:1em;
+    margin-top:0.75em;
+
+  }
+  #collapseCollection2,
+  #collapseViewed2,
+  #collapseFeatured2 {
+    margin:0 1em;
+  }
+
+  // BOOK NODE DISPLAY
+
+  .not-front {
+    p {
+      font-size: 0.875em
+    }
+    
+    h1.page-header {
+      margin-bottom: 0;
+      font-size: 1em;
+    }
+    h3 {
+      font-size: 0.75em;
+      margin-top: 0;
+    }
+    header {
+      display:block;
+    }
+    .logo img {
+     display: none;
+    }
+    .navbar-brand {
+      font-size: 1em;
+      height: inherit;
+    }
+    /*#block-superfish-1 {
+      top:0;
+      padding-left:0.75em;
+    }*/
+    .region-sidebar-first {
+      margin-left:-15px;
+      margin-right:-15px;
+      padding: 0;
+      margin-bottom:0.75em;      
+    }
+    .main-container {
+      margin-top:-0.5em;
+      padding:1.5em;
+    }
+    #views-exposed-form-search-page-1 {
+      margin-left:0.75em;
+    }
+    /*#edit-search-api-views-fulltext-wrapper {
+      width:8em;
+    }*/
+    .pane-node-field-book-author, 
+    .pane-node-field-book-copyright,
+    .pane-node-field-book-style {
+      font-size: 0.875em;
+    }
+    .pagination {
+      margin:0.5em 0;
+    }
+    .pane-menu-menu-about {
+      margin-top:2em;
+      border-top:1px dotted $text-color;
+      padding-top: 1em;
+      h4 {
+        font-size: 1em;
+      }
+      .nav > li > a {
+        font-size: 0.875em;
+      }
+    }
+  }
+  .footer {
+    margin-top: 0;
+    position: relative;
+    bottom:initial;
+    font-size: 0.8125em;
+  }
+}
+@media (max-width: 450px) {
+  .navbar-brand {
+    font-size: 1em;
+  }
+}
