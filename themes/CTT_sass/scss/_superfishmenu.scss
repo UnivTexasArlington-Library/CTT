@@ -23,12 +23,17 @@
       padding-left: 0.5em;
     }
   }
+  li.sf-no-children > a.sf-depth-2::after {
+    content: none;
+  }
   a.sf-depth-3 {
     padding:0.5em 0.25em;
-    
   }
   #menu-2173-1 > ul {
     min-width: 33.7em;
+  }
+  #menu-727-1 > ul {
+    min-width: 40.25em;
   }
 }
 .sf-menu li:hover > ul, 

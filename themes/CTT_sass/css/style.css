@@ -6473,10 +6473,14 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   .sf-menu a.sf-depth-2:active:after {
     content: url("../images/Down-arrow-red_sm.png");
     padding-left: 0.5em; }
+.sf-menu li.sf-no-children > a.sf-depth-2::after {
+  content: none; }
 .sf-menu a.sf-depth-3 {
   padding: 0.5em 0.25em; }
 .sf-menu #menu-2173-1 > ul {
   min-width: 33.7em; }
+.sf-menu #menu-727-1 > ul {
+  min-width: 40.25em; }
 
 .sf-menu li:hover > ul,
 .sf-menu li.sfHover > ul {
