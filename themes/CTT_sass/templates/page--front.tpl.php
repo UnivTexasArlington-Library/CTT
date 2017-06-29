@@ -89,7 +89,7 @@
 
       <?php if (!empty($site_name)): ?>
         <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><p>COVERS, TITLES, AND TABLES:<br />
-<small>The Formations of American Literary Canons</small></p></a>
+<small>The Formations of American Literary Canons in Anthologies</small></p></a>
       <?php endif; ?>
     </div>
     
