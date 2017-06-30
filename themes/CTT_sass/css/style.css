@@ -6579,7 +6579,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 
 .sf-menu.sf-style-space.sf-navbar li ul li ul {
   background-color: #f2f2f2;
-  top: 1.5em;
+  top: 0em;
   /*&:hover {
     top: 1.7em;
   }*/ }
