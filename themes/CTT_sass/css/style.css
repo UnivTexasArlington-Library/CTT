@@ -6579,10 +6579,13 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 
 .sf-menu.sf-style-space.sf-navbar li ul li ul {
   background-color: #f2f2f2;
-  top: 0em;
+  top: 1.5em;
   /*&:hover {
     top: 1.7em;
   }*/ }
+
+.sf-menu.sf-style-space.sf-navbar li ul li ul li ul {
+  top: 0; }
 
 .front #superfish-1-toggle,
 .not-front #superfish-1-toggle {

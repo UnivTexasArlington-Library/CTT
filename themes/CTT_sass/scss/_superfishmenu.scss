@@ -140,10 +140,13 @@
 }
 .sf-menu.sf-style-space.sf-navbar li ul li ul {
   background-color: $brand-menu;
-  top:0em;
+  top:1.5em;
   /*&:hover {
     top: 1.7em;
   }*/
+}
+.sf-menu.sf-style-space.sf-navbar li ul li ul li ul {
+  top:0;
 }
 .front #superfish-1-toggle,
 .not-front #superfish-1-toggle { /* Mobile Menu toggle button */
