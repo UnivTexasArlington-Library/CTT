@@ -6716,7 +6716,7 @@ p a {
 
 .pane-views-exp-search-page-1 {
   padding-left: 1.5em;
-  padding-top: 0.5em; }
+  padding-top: 0.75em; }
 
 .main-container {
   background-color: #dfdfdf;
@@ -6931,11 +6931,12 @@ p a {
 .editorBracket {
   margin-left: 1.5em;
   margin-top: 4em;
-  padding: 2em;
+  padding: 0.75em 1em;
   position: relative;
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  width: 10.25em; }
   .editorBracket:before, .editorBracket:after {
-    border: 0.5em solid #cacac8;
+    border: 1px solid #cacac8;
     bottom: 0;
     content: '';
     position: absolute;
