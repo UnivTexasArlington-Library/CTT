@@ -6679,7 +6679,7 @@ p a {
 
 .hangingindent p {
   padding-left: 22px;
-  text-indent: 22px; }
+  text-indent: -22px; }
 
 .container-fluid {
   max-width: 1980px;

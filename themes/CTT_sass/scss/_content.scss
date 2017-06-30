@@ -7,7 +7,7 @@ p {
 .hangingindent {
   p {
     padding-left:22px;
-    text-indent: 22px;
+    text-indent:-22px;
   }
 }
 .container-fluid {
