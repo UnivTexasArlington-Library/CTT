@@ -6677,6 +6677,10 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 p a {
   text-decoration: underline; }
 
+.hangingindent p {
+  padding-left: 22px;
+  text-indent: 22px; }
+
 .container-fluid {
   max-width: 1980px;
   padding: 0 2em; }
