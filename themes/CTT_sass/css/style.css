@@ -6683,7 +6683,8 @@ p a {
     margin: 0;
     font-size: 14px; }
   .region-uta-logo a {
-    color: #2a3144; }
+    color: #2a3144;
+    text-decoration: none; }
 
 #block-superfish-1 {
   marign-right: -0.5em; }
