@@ -264,6 +264,30 @@ p {
   padding-bottom: 1em;
   width:330px;
 }*/
+.editorBracket {
+  margin-left:1.5em;
+  margin-top:4em;
+  padding:2em;
+  position:relative;
+  font-size:1.125em;
+  &:before, &:after{
+    border: .5em solid $brand-collection; 
+    bottom: 0;    
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 10%;
+  }
+  &:after {
+    border-left: none;
+    right: 0;
+  }
+  &:before {
+    border-right: none;
+    left: 0;
+  }
+}
+
 #backtotop{
   background:transparent url("/ctt2/sites/default/files/CTT-up-arrow.png") no-repeat scroll center center;
   height: 2em;
