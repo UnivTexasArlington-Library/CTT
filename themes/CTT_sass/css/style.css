@@ -7202,5 +7202,7 @@ p a {
 @media (max-width: 450px) {
   .navbar-brand {
     font-size: 1em; } }
+.maintenace-page .in-maintenace {
+  margin: 3em; }
 
 /*# sourceMappingURL=style.css.map */
