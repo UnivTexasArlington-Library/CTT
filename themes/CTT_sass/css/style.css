@@ -6669,6 +6669,9 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   .sf-menu li:hover > ul,
   .sf-menu li.sfHover > ul {
     min-width: 100%; } }
+p a {
+  text-decoration: underline; }
+
 .container-fluid {
   max-width: 1980px;
   padding: 0 2em; }
@@ -6805,16 +6808,19 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
     background-color: transparent; }
 
 #collection,
-#collapseCollection2 {
+#collapseCollection2,
+#collapseCollection {
   margin-left: 1em;
   margin-right: 0; }
 
 #viewed,
-#collapseViewed2 {
+#collapseViewed2,
+#collapseViewed {
   margin-right: 0.5em;
   margin-left: 0.5em; }
 
 #featured,
+#collapseFeatured,
 #collapseFeatured2 {
   margin-right: 1em;
   margin-left: 0; }
@@ -6890,7 +6896,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   border-bottom-right-radius: 10px;*/
   background-color: #cacac8;
   color: #5e1b1d;
-  border-width: 0; }
+  border-color: #cacac8; }
 
 .panel-search {
   padding: 1em;

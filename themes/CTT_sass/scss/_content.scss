@@ -1,4 +1,9 @@
 //Custom
+p {
+  a {
+    text-decoration: underline;
+  }
+}
 .container-fluid {
   max-width: 1980px;
   padding:0 2em;
@@ -132,16 +137,19 @@
 }
 
 #collection,
-#collapseCollection2 {
+#collapseCollection2,
+#collapseCollection {
   margin-left:1em;
   margin-right:0;
 }
 #viewed,
-#collapseViewed2 {
+#collapseViewed2,
+#collapseViewed {
   margin-right:0.5em;
   margin-left:0.5em;
 }
 #featured,
+#collapseFeatured,
 #collapseFeatured2 {
   margin-right:1em;
   margin-left:0;
@@ -226,7 +234,7 @@
   border-bottom-right-radius: 10px;*/
   background-color:$brand-collection;
   color:$link-color;
-  border-width:0;
+  border-color:$brand-collection;
 }
 .panel-search {
   padding:1em;
