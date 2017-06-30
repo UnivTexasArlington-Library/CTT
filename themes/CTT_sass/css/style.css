@@ -6481,6 +6481,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   min-width: 33.7em; }
 .sf-menu #menu-727-1 > ul {
   min-width: 39.05em; }
+.sf-menu #menu-2344-1 > ul {
+  min-width: 13.625em; }
 
 .sf-menu li:hover > ul,
 .sf-menu li.sfHover > ul {
