@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ctt_test.field_group.inc
+ * ctt_structure.field_group.inc
  */
 
 /**
  * Implements hook_field_group_info().
  */
-function ctt_test_field_group_info() {
+function ctt_structure_field_group_info() {
   $field_groups = array();
 
   $field_group = new stdClass();

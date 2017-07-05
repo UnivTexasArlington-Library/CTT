@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CTT_Structure feature.
+ */
+
+include_once 'ctt_structure.features.inc';

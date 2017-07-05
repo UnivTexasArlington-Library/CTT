@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ctt_test.features.field_instance.inc
+ * ctt_structure.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function ctt_test_field_default_field_instances() {
+function ctt_structure_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-book_info-field_book_author'.

@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the CTT_test feature.
- */
-
-include_once 'ctt_test.features.inc';

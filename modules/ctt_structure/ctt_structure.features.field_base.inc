@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ctt_test.features.field_base.inc
+ * ctt_structure.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function ctt_test_field_default_field_bases() {
+function ctt_structure_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'body'.
