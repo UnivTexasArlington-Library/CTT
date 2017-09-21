@@ -7021,6 +7021,12 @@ p a {
       width:12em;
     }
   }*/ }
+/* so down arrow doesn't drop on About the Collection*/
+@media (min-width: 1200px) and (max-width: 1291px) {
+  #collection h4,
+  #viewed h4,
+  #featured h4 {
+    font-size: 18px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .not-front {
     /*#edit-search-api-views-fulltext-wrapper {

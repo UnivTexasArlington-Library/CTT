@@ -380,7 +380,16 @@ p {
     }
   }*/
 }
-
+/* so down arrow doesn't drop on About the Collection*/
+@media (min-width: $screen-lg-min) and (max-width: 1291px) {
+  #collection,
+  #viewed,
+  #featured {
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
 
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   .not-front {
