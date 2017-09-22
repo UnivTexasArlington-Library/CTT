@@ -7034,7 +7034,9 @@ p a {
   .not-front header {
     display: block; }
   .not-front #block-superfish-1 {
-    top: 0; } }
+    top: 0; }
+  .not-front .main-container {
+    margin-top: 1.5em; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .not-front {
     /*#edit-search-api-views-fulltext-wrapper {

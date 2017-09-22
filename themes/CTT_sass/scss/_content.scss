@@ -401,6 +401,9 @@ p {
     #block-superfish-1 {
       top:0;
     }
+    .main-container {
+      margin-top:1.5em;
+    }
   }
 }
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
