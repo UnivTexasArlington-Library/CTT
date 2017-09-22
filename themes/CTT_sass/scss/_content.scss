@@ -389,8 +389,20 @@ p {
       font-size: 18px;
     }
   }
+  .not-front #block-superfish-1 {
+    top:0;
+  }
 }
-
+@media (min-width: $screen-lg-min) and (max-width: 1410px){
+  .not-front {
+    header {
+      display:block;
+    }
+    #block-superfish-1 {
+      top:0;
+    }
+  }
+}
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   .not-front {
     /*#edit-search-api-views-fulltext-wrapper {

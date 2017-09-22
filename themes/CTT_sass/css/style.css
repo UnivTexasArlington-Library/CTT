@@ -7026,7 +7026,15 @@ p a {
   #collection h4,
   #viewed h4,
   #featured h4 {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .not-front #block-superfish-1 {
+    top: 0; } }
+@media (min-width: 1200px) and (max-width: 1410px) {
+  .not-front header {
+    display: block; }
+  .not-front #block-superfish-1 {
+    top: 0; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .not-front {
     /*#edit-search-api-views-fulltext-wrapper {
