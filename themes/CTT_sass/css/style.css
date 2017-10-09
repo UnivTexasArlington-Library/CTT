@@ -7152,7 +7152,8 @@ p a {
     padding-top: 5px;
     padding-left: 0.25em;
     font-size: 1em;
-    line-height: 1em; }
+    line-height: 1em;
+    margin-bottom: 1.5em; }
     .navbar-brand small {
       font-size: 75%; }
 
@@ -7212,7 +7213,8 @@ p a {
       display: none; }
     .not-front .navbar-brand {
       font-size: 1em;
-      height: inherit; }
+      height: inherit;
+      padding: 5px 10px; }
     .not-front .region-sidebar-first {
       margin-left: -15px;
       margin-right: -15px;
