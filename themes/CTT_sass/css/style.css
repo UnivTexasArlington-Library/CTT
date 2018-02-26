@@ -6484,19 +6484,20 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .sf-menu #menu-2344-1 > ul {
   min-width: 13.625em; }
 
+.sf-menu li > ul,
 .sf-menu li:hover > ul,
 .sf-menu li.sfHover > ul {
-  top: 5.125em;
+  top: auto;
   width: auto;
   right: 0;
   left: auto;
   min-width: 11.125em; }
 
-.sf-navbar li li:hover > ul,
-.sf-navbar li li.sfhover > ul,
+/*.sf-navbar li li:hover > ul,
+.sf-navbar li li.sfhover > ul, 
 .sf-navbar > li.active-trail > ul {
-  top: 2em; }
-
+  top:2em;
+}*/
 .sf-menu.sf-style-space {
   float: left;
   margin-bottom: 1em;
