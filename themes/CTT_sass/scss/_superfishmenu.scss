@@ -40,7 +40,7 @@
     min-width: 13.625em;
   }
 }
-.sf-menu li > ul,
+
 .sf-menu li:hover > ul, 
 .sf-menu li.sfHover > ul {
   top: auto;
@@ -49,11 +49,12 @@
   left:auto;
   min-width: 11.125em;
 }
-/*.sf-navbar li li:hover > ul,
+.sf-navbar li li:hover > ul,
 .sf-navbar li li.sfhover > ul, 
 .sf-navbar > li.active-trail > ul {
-  top:2em;
-}*/
+  top:auto;
+  left:auto;
+}
 .sf-menu.sf-style-space {
   float: left;
   margin-bottom: 1em;
